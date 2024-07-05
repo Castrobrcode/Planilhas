@@ -15,16 +15,15 @@ Navegador Firefox
 GeckoDriver (compatível com a versão do Firefox)
 🛠️ Instalação
 Clone este repositório:
-
-bash
-Copiar código
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/Castrobrcode/Planilhas.git
 cd nome-do-repositorio
 Instale as dependências:
+selenium
+openpyxl
 
-bash
-Copiar código
+
 pip install selenium openpyxl
+
 Baixe e configure o GeckoDriver:
 
 GeckoDriver
@@ -35,9 +34,8 @@ Prepare a planilha de entrada:
 A planilha dados_clientes.xlsx deve estar no diretório planilhas e deve conter as colunas: Nome, Valor, CPF e Data de Vencimento na aba Sheet1.
 Execute o script:
 
-bash
-Copiar código
-python seu_script.py
+
+python3 main.py
 Resultados:
 
 O script abrirá o navegador Firefox, acessará o site de consulta de CPF e processará cada linha da planilha de entrada.
